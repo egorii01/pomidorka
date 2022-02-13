@@ -1,0 +1,20 @@
+#ifndef NOTIFICATION_HPP
+#define NOTIFICATION_HPP
+
+enum Notification {
+    LEFT_TIME_CHANGED,
+    TIME_IS_UP,
+
+    CYCLE_PAUSED,
+    CYCLE_STOPPED,
+    CYCLE_ENDS,
+
+    COUNTDOWN_ENDS,
+    COUNTDOWN_STOPPED,
+
+    CONFIG_CHANGED,
+
+    EMPTY_NOTIFICATION,
+};
+
+#endif
